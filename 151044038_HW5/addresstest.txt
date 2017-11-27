@@ -1,0 +1,10 @@
+MOV R1 , 150 ;
+MOV R1 , #40 ;
+MOV #40 , R5 ;
+PRN R5 ;
+ADD R1 , R5 ;
+SUB R5 , R3 ;
+JPN R5 , 10 ;
+MOV R3 , 50 ;
+MOV R4 , 50 ;
+HLT ;
